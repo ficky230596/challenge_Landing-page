@@ -115,16 +115,17 @@ header nav ul li a {
 
 .Content1 {
     display: flex;
+    flex-direction: row;
 }
 
-.Content1 .content-image {
+.Content1 .content1-image {
     width: 450px;
     height: 200px;
     overflow: hidden;
     position: relative;
 }
 
-.Content1 .content-image img {
+.Content1 .content1-image img {
     width: 450px;
     object-fit: cover;
 }
